@@ -1,3 +1,160 @@
-h1 {
-  color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* font styles and colors*/
+.hero-main-text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero-secondary-text, a{
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.information-header {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.speaker {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.cta div {
+  color: #e5e7eb;
+}
+
+.bold {
+  font-size: 20px;
+  font-weight: 900;
+}
+/* section colours */
+.header, .hero {
+  background-color: #1F2937;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.cta-container {
+  background-color: #3883f6;
+}
+
+/* buttons */
+button {
+  border-radius: 8px;
+  background: #3883f6;
+  padding: 8px 20px;
+  color: #e5e7eb;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer
+}
+
+.no-border {
+  border: none;
+}
+
+.white-border {
+  border: solid #e5e7eb;
+}
+
+/* layout */
+.header, .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-container,
+.hero-container {
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 20px;
+  width: 1000px;
+}
+
+/* header */
+.header-container {
+  align-items: center;
+}
+
+.header-logo{
+  margin-right: auto;
+}
+
+.right-links {
+  display: flex;
+  gap: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* hero */
+.hero {
+  height: 80vh;
+} 
+
+.hero-container {
+  gap: 100px;
+
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+}
+
+.hero-main-text {
+  margin-bottom: 20px;
+  line-height: 100%;
+}
+
+.hero-secondary-text {
+  margin-bottom: 15px;
+}
+
+/* random-information */
+.row-image {
+  max-width: 200px;
+}
+
+.footer {
+  background-color: #1F2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
 }
