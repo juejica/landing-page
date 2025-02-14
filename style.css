@@ -16,6 +16,7 @@ body {
   --dark-bg-color: #1F2937;
   --white-color: #f9faf8;
   --secondary-text-color: #e5e7eb;
+  --bright-blue-color: #3883f6;
 
   background-color: var(--dark-bg-color);
 }
@@ -29,7 +30,7 @@ body {
 button {
   border-radius: 8px;
   background-color: #3883f6;
-  padding: 8px 20px;
+  padding: 8px 30px;
   color: #e5e7eb;
   text-decoration: none;
   text-align: center;
@@ -193,16 +194,35 @@ ul {
 
 /* CTA Section */
 .cta-container {
-  background-color: #3883f6;
+  background-color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 50px;
+}
+
+.cta {
+  background-color: var(--bright-blue-color);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 50px;
+  gap: 30px;
+  width: 900px;
 }
 
 .cta div {
   color: #e5e7eb;
+
 }
 
-.bold {
-  font-size: 20px;
+.cta-title {
+  font-size: 24px;
   font-weight: 900;
+  
+  margin-bottom: 6px;
 }
 
 /* Footer */
