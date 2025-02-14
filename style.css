@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
   margin: 0;
@@ -24,34 +23,6 @@ body {
 /* .content {
   flex: 1;
 } */
-
-/* font styles and colors*/
-.information-header {
-  font-size: 36px;
-  color: #1F2937;
-  font-weight: 900;
-}
-
-.quote-text {
-  font-size: 36px;
-  font-weight: 300;
-  font-style: italic;
-  color: #1F2937;
-}
-
-.speaker {
-  font-size: 18px;
-  font-weight: 900;
-}
-
-.cta div {
-  color: #e5e7eb;
-}
-
-.bold {
-  font-size: 20px;
-  font-weight: 900;
-}
 
 
 /* buttons */
@@ -165,6 +136,9 @@ ul {
 
 .information-header {
   margin-bottom: 50px;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
 }
 
 .row-container {
@@ -189,13 +163,46 @@ ul {
 }
 
 /* Quote Section */
-.quote {
+.quote-section {
   background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 100px 50px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: var(--dark-bg-color);
+  
+  max-width: 800px;
+  margin-bottom: 10px;
+}
+
+.speaker {
+  font-size: 18px;
+  font-weight: 900;
+
+  max-width: 750px;
+  text-align: end;
 }
 
 /* CTA Section */
 .cta-container {
   background-color: #3883f6;
+}
+
+.cta div {
+  color: #e5e7eb;
+}
+
+.bold {
+  font-size: 20px;
+  font-weight: 900;
 }
 
 /* Footer */
