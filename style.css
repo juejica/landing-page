@@ -197,7 +197,7 @@ ul {
   background-color: var(--white-color);
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   padding: 100px 50px;
 }
 
@@ -215,7 +215,6 @@ ul {
 
 .cta div {
   color: #e5e7eb;
-
 }
 
 .cta-title {
